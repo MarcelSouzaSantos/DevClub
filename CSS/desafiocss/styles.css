@@ -1,0 +1,140 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#Products {
+    width: 87px;
+    height: 20px;
+    top: 47px;
+    left: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    margin-right: 32px;
+    color: #17233d;
+    cursor: pointer;
+
+}
+
+
+#Company {
+    width: 79px;
+    height: 21px;
+    top: 47px;
+    left: 161px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    margin-right: 32px;;
+    color: #17233d;
+    cursor: pointer;
+
+}
+
+#Blog {
+    width: 37px;
+    height: 21px;
+    top: 47px;
+    left: 272px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    text-align: center;
+    color: #17233d;
+    cursor: pointer;
+}
+
+#Log-in {
+    width: 47px;
+    height: 21px;
+    top: 48px;
+    left: 341px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    text-align: center;
+    color: #17233d;
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    border-radius: 6px;
+    border: none;
+    background-color: #6fbf44;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Congratulation-image {
+    display: inline-block;
+    margin: 163px 0 0 123px;
+   
+}
+
+section {
+    display: inline-block;
+    margin-left: 78px;
+    margin-bottom: 120px;
+    
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+   
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    margin-bottom: 21px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+#link-learn {
+    width: 112px;
+    height: 27px;
+    top: 707px;
+    left: 801px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
