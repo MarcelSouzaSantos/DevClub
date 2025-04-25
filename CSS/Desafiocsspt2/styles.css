@@ -1,0 +1,210 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 15px auto ;
+    text-align: center;
+}
+
+#Products {
+    width: 87px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    margin-right: 32px;
+    color: #17233d;
+    cursor: pointer;
+
+}
+
+
+#Company {
+    width: 79px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    margin-right: 32px;
+    color: #17233d;
+    cursor: pointer;
+
+}
+
+#Blog {
+    width: 37px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    text-align: center;
+    color: #17233d;
+    cursor: pointer;
+}
+
+#Log-in {
+    width: 47px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+    text-align: center;
+    color: #17233d;
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+    background-color: #6fbf44;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.Congratulation-image {
+    display: inline-block;
+    margin: 163px 0 0 123px;
+   
+}
+
+section {
+    display: inline-block;
+    margin-left: 78px;
+    margin-bottom: 120px;
+    
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+   
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    margin-bottom: 21px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+#link-learn {
+    width: 112px;
+    height: 27px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 900px){
+    body{
+        max-width: 390px;
+        max-height: 800px;
+        margin: 0 auto;
+    }
+  
+    #Products {
+      display: none;
+    }
+
+    #Company{
+        display: none;
+    }
+
+    #Blog{
+        display: none;
+    }
+    
+    #Log-in{
+        display: none;
+    }
+
+    button{
+        width: 91px;
+        height: 31px;
+        margin-left: 150px;
+    }
+    
+    h1{
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        margin: 124px auto 616px auto;
+        font-size: 30px;
+        line-height: 30px;  
+        letter-spacing: 0.6px;
+        position: absolute;
+
+
+
+    }
+    .Congratulation-image {
+        display: block;
+        width: 312px;
+        height: 288px;
+        margin: 490px auto 22px 66px; 
+        position: absolute;
+    }
+
+    p{
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        margin: 213px auto 422px auto;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        position: absolute;
+    }
+
+    #link-learn {
+        width: 112px;
+        height: 27px;
+        margin: 404px auto 369px 90px;
+        font-family: Poppins;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        position: absolute;
+    }
+}
